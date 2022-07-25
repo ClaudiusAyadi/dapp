@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First dApp</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>MOOD DAPP</h1>
+    <h3>This is my first dApp!</h3>
+    You are welcome! Thanks for joining me on my journey into blockchain
+    development. This is my first dapp that I built using the following
+    tools:<br />
+    <li>Solidity: to write the smart contract</li>
+    <li>HTML & CSS: for the frontend web interface</li>
+
+    ...and a pinch of Javascript to connect the smart contract to the frontend
+    interface.<br /><br />
+
+    This simple dapp takes your input MOOD and stores it in the Ropsten
+    blockchain network.<br /><br />
+
+    You type in your current mood and click on the SET MOOD button to trigger the setMood function.<br /><br />
+    
+    To retrieve your saved or set mood, you click on the GET MOOD button.<br><br>
+    
+    You have to be patient and allow the network to confirm the transaction
+    first before you click on the GET MOOD button.<br /><br />
+
+    I believe you have seen my other beginner's work. I am eager to learn and
+    build functional products using blockchain. And of course, do not expect any
+    perfection from me at this point. This is my first dApp. A little step in my
+    journey, but a giant leap in my earnestness.<br /><br />
+
+    I truly look forward to becoming better and more knowledgeable - an expert
+    in both smart contracts and its integration in our day-to-day life.<br />
+
+    <div class="dapp">
+      <label for="mood">Input Mood:</label> <br />
+      <input type="text" id="mood" /><br />
+
+      <button onclick="setMood()">Set Mood</button>
+      <button onclick="getMood()">Get Mood</button>
+    </div>
+    <br />
+    <br />
+
+    I will love to connect with you. Check me out on...
+    <li><a href="https://twitter.com/ClaudiusAyadi">Twitter</a></li>
+    <li><a href="//www.linkedin.com/in/claudiusayadi/">LinkedIn</a></li>
+    <li><a href="https://github.com/ClaudiusAyadi">Github</a></li>
+    <br /><br /><br />
+
+    NOTE: This project is part of the Freshman Track that could be found here:
+    <a href="https://learnweb3.io">learnweb3.io</a> You can use their resources to start your blockchain development journey too.
+    <script
+      src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+      type="application/javascript"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

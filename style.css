@@ -1,0 +1,47 @@
+body {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  font-family: cursive;
+  font-size: 18px;
+  background-image: url(blue.jpg);
+  color: whitesmoke;
+}
+
+h1 {
+  border: 1px solid yellow;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.dapp {
+  border: 1px solid yellow;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 10px;
+  padding: 25px 0px 50px 0px;
+}
+
+button {
+  background-color: purple;
+  color: whitesmoke;
+  margin: 10px 5px 15px 5px;
+}
+
+button:hover {
+  background-color: darkviolet;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: hotpink;
+}
+
+a:hover {
+  color: darkturquoise;
+}
